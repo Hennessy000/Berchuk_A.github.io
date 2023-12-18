@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="grid">
+        <header class="header">
+            <div class="logo">
+                <h1>Тортики <span>&</span> Тістечка</h1>
+            </div>
+        </header>
+        <div class="cards">
+            <div class="card" id="rulet">
+                <div class="photo">
+                    <img src="img/Praga.jpg" alt="">
+                </div>
+                <div class="text">
+                    Рулет: <p>Прага</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 345 кКал </span>
+                </div>
+            </div>
+            <div class="card"  id="sirnik">
+                <div class="photo">
+                    <img src="img/Sirnik.jpg" alt="">
+                </div>
+                <div class="text">
+                    Сирники: <p>Ванільні</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 285 кКал</span>
+                </div>
+            </div>
+            <div class="card" id="purih">
+                <div class="photo">
+                    <img src="img/CheryPerig.jpg" alt="">
+                </div>
+                <div class="text">
+                    Пиріг: <p>Вишневий</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 398 кКал</span>
+                </div>
+            </div>
+            <div class="card" id="purih">
+                <div class="photo">
+                    <img src="img/ChokolatePerig.jpg" alt="">
+                </div>
+                <div class="text">
+                    Пиріг: <p>Шоколадний</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 540 кКал</span>
+                </div>
+            </div>
+            <div class="card" id="tistechko">
+                <div class="photo">
+                    <img src="img/limone.jpg" alt="">
+                </div>
+                <div class="text">
+                    Тістечко: <p>Лимонне</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 205 кКал</span>
+                </div>
+            </div>
+            <div class="card" id="tistechko">
+                <div class="photo">
+                    <img src="img/syrnoe-pirognoe-s-klubnikoi.jpg" alt="">
+                </div>
+                <div class="text">
+                    Тістечко: <p>Полуничне</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 156 кКал</span>
+                </div>
+            </div>
+            <div class="card" id="tort">
+                <div class="photo">
+                    <img src="img/manhouse.jpg" alt="">
+                </div>
+                <div class="text">
+                    Торт: <p>Монастирська хата</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 200 кКал</span>
+                </div>
+            </div>
+            <div class="card" id="tort">
+                <div class="photo">
+                    <img src="img/tortpolun.jpeg" alt="">
+                </div>
+                <div class="text">
+                    Торт: <p>Полуничний</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 250 кКал</span>
+                </div>
+            </div>
+            <div class="card" id="tistechko">
+                <div class="photo">
+                    <img src="img/yagoda.jpg" alt="">
+                </div>
+                <div class="text">
+                    Рулет: <p>Ягодний</p>
+                </div>
+                <div class="hr"></div>
+                <div class="foo_text">
+                    <span class="calorii">Калорії у порції: 300 кКал</span>
+                </div>
+            </div>
+        </div>
+        <aside class="filters">
+            <span class="h3">Калорії у порції</span>
+            <div class="range">
+                <input class="Range" type="range" min="0" max="100" step="1" value="50">
+                <span class="h4">Від 0 до 850 кКал</span>
+            </div>
+            <div class="fbuttons">
+                <div class="custom-checkbox">
+                    <input class="purih_check" type="radio" id="myCheckbox" name="food-group">
+                    <label for="myCheckbox">Пиріг</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="rulet_check" type="radio" id="myCheckbox1" name="food-group">
+                    <label for="myCheckbox1">Рулет</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="syr_check" type="radio" id="myCheckbox2" name="food-group">
+                    <label for="myCheckbox2">Сирники</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="tist_check" type="radio" id="myCheckbox3" name="food-group">
+                    <label for="myCheckbox3">Тістечко</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="tort_check" type="radio" id="myCheckbox4" name="food-group">
+                    <label for="myCheckbox4">Торт</label>
+                </div>
+                <div class="custom-checkbox">
+                    <input class="reset_check" type="radio" id="myCheckbox5" name="food-group">
+                    <label for="myCheckbox5">Скинути фільтр</label>
+                </div>
+            </div>
+        </aside>
+        <footer class="footer">
+            <span class="contact">Контакти: <a href="">tortik@smakota.ua</a></span>
+            <span class="year">&#169; 2023 Smakota</span>
+        </footer>
+    </div>
+</body>
+</html>
